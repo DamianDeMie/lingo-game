@@ -1,0 +1,63 @@
+body{
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.row{
+	margin: 0 auto 5px;
+	height: 100px;
+	width: 150%;
+}
+
+.container{
+	margin: 0 auto;
+	width: 39.5%;
+}
+
+header {
+	text-align: center;
+}
+
+#button2 {
+	margin: 0 auto; 
+	display: block;
+	font-weight: 700;
+  	text-transform: uppercase;
+	height: 45px;
+	width: 200px;
+	background-color: darkcyan;
+	color: white;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 2px;
+	cursor: pointer;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.column{
+	width: 98px;
+	height: 98px;
+	background-color: white;
+	float: left;
+	margin-right: 5px;
+	font-size: 80px;
+	border: solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+}
+
+.column p{
+	margin: 0;
+	line-height: 98px;
+}
+
+button{
+	margin: 0 auto 5px auto;
+	text-align: center;
+}
